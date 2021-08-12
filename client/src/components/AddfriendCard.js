@@ -34,8 +34,6 @@ class AddfriendCard extends Component {
                                         <div style={{ lineHeight: "160%" }} className="AddfriendCard-up">
                                             <p style={{ fontFamily: "Times New Roman", fontSize: "2rem", color: "rgb(90, 90, 90)" }} className="AddfriendCard-up-line"><b>{User.user}</b></p>
                                         </div>
-                                        
-                                        <p style={{ fontSize: "0.8rem", color: "grey" }}>{datePosted}</p>
                                     </div>
                                 </div>
                             </div>
