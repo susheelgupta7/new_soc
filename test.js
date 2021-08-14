@@ -10,24 +10,3 @@ for(const d of a){
     }
 }
 console.log("yes");
-
-module.export = (app) => {
-    app.get('api/get_feed',requireLogin,async(req,res)=> {
-        try{
-            user=req.user.googleId;
-            let feedArr = [];
-            //logic
-            followedResponse= await followeduserArr.find({user:user});
-            followedUserArr=[];
-            for(f of followedResponse)
-            {
-                followedUserArr.push(F.Followed);
-            }
-            for(const user of followedUserArr)
-            {
-                let checkuser=await PostAdd.find({user:user});
-                feedArr=[...checkuser,...feedArr];
-            }
-        }
-    })
-}
